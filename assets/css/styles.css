@@ -235,6 +235,7 @@ nav ul li {
   align-items: center;
   justify-content: center;
   color:#121212;
+  flex-wrap: wrap;
 }
 
 .projects-title {
@@ -244,7 +245,7 @@ nav ul li {
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
+  width: 25%;
   padding: 1rem;
 }
 
@@ -266,6 +267,25 @@ nav ul li {
   box-shadow: 0px 2px 15px 5px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+.buttons {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-right: 3%;
+  margin-top: 0;
 }
 /* Projects section ends */
 
