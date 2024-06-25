@@ -204,8 +204,8 @@ nav ul li {
 }
 
 .icon {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .icon-card {
@@ -213,7 +213,7 @@ nav ul li {
   border-radius: 11px;
   box-shadow: 0px 2px 15px 5px var(--primary-shadow);
   padding: 20px;
-  margin: 10px;
+  margin: 12px;
 }
 
 /* Skills section ends */
@@ -279,7 +279,7 @@ nav ul li {
 
 .button {
   padding: 4px 8px;
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: var(--primary-color);
   font-size: 14px;
   font-weight: 600;
@@ -291,8 +291,8 @@ nav ul li {
 
 /* Contacts section */
 .contact {
-  margin-top: 2rem;
-  /* padding-top: var(--padding-top); */
+  margin-top: 2.5rem;
+  padding-top: 6rem;
 }
 
 .contact h2 {
