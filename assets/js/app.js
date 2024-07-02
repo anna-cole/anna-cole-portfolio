@@ -34,8 +34,8 @@ scrollUp.addEventListener("click", () => {
 });
 
 // Add CSS animation to social icons
-for (const i of socicons) {
-  i.addEventListener("mouseover", () => {
-    i.classList.add('animate__animated', 'animate__heartBeat');
-  })
-};
+// for (const i of socicons) {
+//   i.addEventListener("mouseover", () => {
+//     i.classList.add('animate__animated', 'animate__heartBeat');
+//   })
+// };

@@ -108,6 +108,22 @@ nav .socials {
   width: 2rem;
   height: 2rem;
 }
+
+@keyframes pulse-animation {
+  0% {
+  transform: scale(1);
+  }
+  50% {
+  transform: scale(1.2);
+  }
+  100% {
+  transform: scale(1);
+  }
+  }
+  
+  .socicon:hover {
+  animation: pulse-animation 1s infinite;
+  }
 /* Social button ends */
 /* Navbar ends */
 
@@ -291,10 +307,10 @@ nav .socials {
 .button:hover {
   padding: 4px 8px;
   border-radius: 6px;
-  background-color: white;
+  background-color: rgb(5, 45, 78);
   font-size: 14px;
   font-weight: 600;
-  color: var(--primary-color);
+  color: white;
   margin-right: 3%;
   margin-top: 0;;
   cursor: pointer;
@@ -432,7 +448,8 @@ footer {
   }
 
   .bio {
-    margin-top: -7rem;
+    margin: 0 auto;
+    margin-top: 3rem;
     width: 20.5rem;
   }
 
@@ -450,8 +467,8 @@ footer {
   }
 
   .icon {
-    width: 5.875rem;
-    height: 5.25rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   .projects-container {
